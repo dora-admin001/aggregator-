@@ -1,406 +1,435 @@
 proxies:
-  - {name: 新加坡01, server: cf.hy2.one, port: 2082, type: vmess, uuid: 6f0a100e-eb9c-481e-93fe-c92b1bca33cd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg01.hy-2.top}}, udp: true}
-  - {name: 韩国-三网优化2-3C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6c2079fc-c8a4-40fd-b746-eb78be38c80d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-1P, server: 5.39.254.196, port: 40125, type: vmess, uuid: c9256962-3202-4c45-9556-3e535c824b23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|俄罗斯|V2-2M, server: 45.130.147.178, port: 40045, type: vmess, uuid: 486c2663-27d1-4fb1-89ac-0cbbb8cc89f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 新加坡 B SG, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 公益|HK01|V2-1J, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 3c2b86e7-2847-4e54-9dd6-3aa5f8d7230a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|英国|V2-1M, server: 5.39.254.196, port: 40125, type: vmess, uuid: f0c13741-72ce-4906-99c8-cb80e10e3da4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-3E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6041a523-68e8-48a0-bd7f-4c6cb73cf16d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 中港隧道-印度-1A, server: jzgz.tcity8.monster, port: 22238, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL专线 美国 NO1-1B, server: i.needss.top, port: 54770, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-2C, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 2086056b-8258-4aac-b595-79026272ba6a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-2V, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 72c89d8e-4d92-424d-9df5-82a5d752aeb6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 香港中转 02, server: gstdnb.myfczy168.top, port: 36858, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: IEPL专线 韩国 NO1-1B, server: i.needss.top, port: 20021, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 美国 C US, server: usa3.iepl.cooc.icu, port: 33881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 新加坡 A SG, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 公益|俄罗斯|V2-1N, server: 45.130.147.178, port: 40045, type: vmess, uuid: 81651a3d-d612-45e8-9040-ec3ff296dfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|俄罗斯|V2-1U, server: 45.130.147.178, port: 40045, type: vmess, uuid: 54ce693e-5922-4f9a-aa61-34519538a971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中港隧道-香港3-1B, server: jzgz.tcity8.monster, port: 22003, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-1F, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: fd6402d9-a0f6-4745-8476-5f32b513cc03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|HK01|V2-2K, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 7429f1a7-24e3-4e60-be5a-2fdfc693ec47, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|俄罗斯|V2-1A, server: 45.130.147.178, port: 40045, type: vmess, uuid: 6d544a04-4374-41a2-8f67-63a496717703, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-1Q, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 971a17d1-7419-4e6c-9a51-c8b81ccc9298, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 美国原生NO4-1B, server: dzgz.tcity8.monster, port: 35208, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-2Q, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: db820454-843f-4308-9cbd-b8b4e43dbf6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 中港隧道-澳大利亚-1A, server: jzgz.tcity8.monster, port: 22237, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: US-NEWYORK5-1B, server: cdnblog.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 公益|俄罗斯|V2-1I, server: 45.130.147.178, port: 40045, type: vmess, uuid: 40fb3ecd-0304-4c19-8bad-ce380134a2bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|俄罗斯|V2-2K, server: 45.130.147.178, port: 40045, type: vmess, uuid: 7429f1a7-24e3-4e60-be5a-2fdfc693ec47, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: IEPL专线 印度 NO1-1B, server: i.needss.top, port: 15442, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2S, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a2cb796e-652c-4ac7-ad66-893b2207b447, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1S, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e19703c6-73ff-4b3a-8166-7216cf5960e8, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 英国 UK | BIZ, server: uk.cooc.icu, port: 35605, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 公益|HK01|V2-1W, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: d58d0a56-451e-4974-bf76-a397d10a5bb5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|俄罗斯|V2-1Y, server: 45.130.147.178, port: 40045, type: vmess, uuid: d46f1cab-30af-40b3-a967-f8db1897f1ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|俄罗斯|V2-2R, server: 45.130.147.178, port: 40045, type: vmess, uuid: 734f0c47-6145-4aad-81a5-f68339cd9a8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-3B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3132a471-4b82-422a-b6a1-9615a75f05d3, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: DE-建議啟用IPV6-1B, server: 2a01:4f8:272:5aa1:424f:59ad:652a:cc71, port: 2052, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoftvideo/HEAC?ed=2048", headers: {Host: falkenstein.saxony.germany.internetcdn.internetacc.live}}, udp: true}
-  - {name: 澳门NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL专线 阿根廷 NO1-1B, server: i.needss.top, port: 20014, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-2J, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 5e3f9df9-10cb-4c7e-8925-58b0673e22cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 俄罗斯 RU BIZ, server: ru.cooc.icu, port: 35645, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 公益|HK01|V2-1D, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 54f93bba-4d03-4b11-a672-ce223c4d6fec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-2D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a6f622a0-be67-46cf-9a43-6df4b2304f3e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国 A KR, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 韩国-三网优化2-1E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eb7bde8b-5734-4b32-9525-12cb6dd30e87, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: IEPL专线 以色列 NO1-1B, server: i.needss.top, port: 30024, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2H, server: 45.130.147.178, port: 40045, type: vmess, uuid: 9eacd1bd-20d3-4293-ae72-af995551f492, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45080, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1R, server: 45.130.147.178, port: 40045, type: vmess, uuid: cf938b3b-daaf-431b-8992-a163c875fa52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-1H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e62576f2-03f4-4bae-890f-248f52902831, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 泰国 TH BIZ, server: th.cooc.icu, port: 35613, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 韩国-三网优化2-2Q, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eb32219b-a858-467e-a6da-341de6c1a5f2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-1E, server: 5.39.254.196, port: 40125, type: vmess, uuid: 1c9671c9-6067-4a18-a7be-753dbeb64459, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: IEPL专线 印尼 NO1-1B, server: i.needss.top, port: 25127, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: CM 隧道 日本 NO1-1B, server: i.needss.top, port: 52117, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2S, server: 45.130.147.178, port: 40045, type: vmess, uuid: 3a93862c-83c8-42c9-9280-29d148441743, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: IEPL专线 西班牙 NO1-1A, server: sh3.needss.top, port: 45112, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: CM 隧道 荷兰 NO1-1A, server: sh3.needss.top, port: 20024, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1R, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d7d1bd4b-52d5-4f83-b252-330a500e213a, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2O, server: 45.130.147.178, port: 40045, type: vmess, uuid: 2570f70b-4e7c-49cb-9ffe-b6cfb732d409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: IEPL专线 新加坡 NO1-1A, server: i.needss.top, port: 44412, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e0f14455-78fb-4d64-828c-24e6bc57f0e0, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2D, server: 45.130.147.178, port: 40045, type: vmess, uuid: 2b73f033-2f9a-486c-9a2b-44d4c04a93bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|俄罗斯|V2-2B, server: 45.130.147.178, port: 40045, type: vmess, uuid: ded526c3-49c4-42d0-88f0-1b300e165c72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL专线 澳大利亚 NO1-1B, server: i.needss.top, port: 20011, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|英国|V2-1R, server: 5.39.254.196, port: 40125, type: vmess, uuid: cf938b3b-daaf-431b-8992-a163c875fa52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-2H, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 9eacd1bd-20d3-4293-ae72-af995551f492, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-2T, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c2c3e7ef-22fd-41e3-9034-ba765e589501, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1Y, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 89f72152-b15a-4876-bd66-640195253731, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-1G, server: 5.39.254.196, port: 40125, type: vmess, uuid: ae418236-916f-4069-80ec-ad5a422fb514, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 香港3-1B, server: xg3.tcity8.buzz, port: 10010, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 深港专线-德国-1B, server: dzgz.tcity8.monster, port: 35222, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2R, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c9f40299-6400-41da-8382-1fc4439df5f9, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: IEPL专线 英国 NO1-1A, server: sh3.needss.top, port: 54774, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 英国中转 01, server: gstdnb.myfczy168.top, port: 29172, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 美国 A US, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 美国原生NO4-1A, server: dzgz.tcity8.monster, port: 35208, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-3J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c87bdd20-c488-4521-b751-5bbb62efd3e9, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-1V, server: 5.39.254.196, port: 40125, type: vmess, uuid: b5c9a6bb-c007-499e-9e78-0313d0bed21c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中港隧道-加拿大-1B, server: jzgz.tcity8.monster, port: 22236, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|英国|V2-1N, server: 5.39.254.196, port: 40125, type: vmess, uuid: 81651a3d-d612-45e8-9040-ec3ff296dfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: UK-LONDON-01-1B, server: cdnblog.intacc-cdn.arjcet.org, port: 2082, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair?ed=2048", headers: {Host: London.England.UnitedKingdom.internetcdn.internetacc.live}}, udp: true}
-  - {name: 公益|俄罗斯|V2-1C, server: 45.130.147.178, port: 40045, type: vmess, uuid: cc616694-63bc-4d4f-8e93-c58c8fce4971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: FI-HELSINKI-ONLYIPV6-2-1A, server: helsinki.uusimaa.finland.fi.internetcdn.ggff.net, port: 55555, type: ss, cipher: chacha20-ietf-poly1305, password: 5117e705-a121-49c8-9dd3-db437c5106ad, udp: true}
-  - {name: 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 新加坡 C SG, server: sg3.iepl.cooc.icu, port: 35107, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: IEPL专线 德国 NO1-1B, server: js3.needss.top, port: 54782, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 美国原生NO2-1A, server: dzgz.tcity8.monster, port: 35209, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾中转 05, server: gstdnb.myfczy168.top, port: 35846, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-1L, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: a498707a-2035-464f-8ea7-3ac6243625f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|英国|V2-2A, server: 5.39.254.196, port: 40125, type: vmess, uuid: 7e835424-bbd7-48ea-acc3-9f7c3b075594, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-2B, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: ded526c3-49c4-42d0-88f0-1b300e165c72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 深港专线-澳大利亚-1A, server: dzgz.tcity8.monster, port: 35220, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-1N, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 81651a3d-d612-45e8-9040-ec3ff296dfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 深港专线-英国-1B, server: dzgz.tcity8.monster, port: 35221, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-2T, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 924c2ee3-4276-47cb-93d2-ec9267faeccd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: CM 隧道 日本 NO1-1A, server: i.needss.top, port: 52117, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 美国 B US, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 香港NO.1, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 深港专线-香港2-1A, server: dzgz.tcity8.monster, port: 35213, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL专线 台湾 NO1-1A, server: i.needss.top, port: 20016, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: BRAZIL-1B, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 8080, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/Microsoftupdate/TG@pwsair?ed=2048", headers: {Host: jardimperiperi.saopaulo.brazil.internetcdn.internetacc.live}}, udp: true}
-  - {name: US-NEWYORK3-1B, server: cdn3.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 香港中转 03, server: gstdnb.myfczy168.top, port: 14407, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 公益|HK01|V2-1Y, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: d46f1cab-30af-40b3-a967-f8db1897f1ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 中港隧道-新加坡-1B, server: jzgz.tcity8.monster, port: 22231, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 深港专线-台湾-1B, server: dzgz.tcity8.monster, port: 35224, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-1M, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: f0c13741-72ce-4906-99c8-cb80e10e3da4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 新加坡中转 03, server: gstdnb.myfczy168.top, port: 11599, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: IEPL专线 印尼 NO1-1A, server: i.needss.top, port: 25127, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-2I, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 775ee653-c437-40a1-bb2b-dc691f2d04ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|HK01|V2-2E, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: cc45b5b4-2e20-4926-a955-45e39f25b1e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: FR-LILLE-1B, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 2095, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/AMDgpu/TG@pwsair/Intelcpu?ed=2048", headers: {Host: lille.hauts-de-france.france.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 公益|英国|V2-1D, server: 5.39.254.196, port: 40125, type: vmess, uuid: 54f93bba-4d03-4b11-a672-ce223c4d6fec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 台湾中转 03, server: gstdnb.myfczy168.top, port: 14232, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 公益|俄罗斯|V2-1J, server: 45.130.147.178, port: 40045, type: vmess, uuid: 3c2b86e7-2847-4e54-9dd6-3aa5f8d7230a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国 B KR, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: JP-TOKYO 试用-1B, server: shibuya-tokyo-japan-amazon.sgqt.fun, port: 8080, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/TG@pwsair/microsoft?ed=2048", headers: {Host: shibuya.tokyo.japan.amazon.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 台湾 B TW, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 香港-1C, server: xg1.tcity8.buzz, port: 10010, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-1P, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: c9256962-3202-4c45-9556-3e535c824b23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 日本中转 03, server: gstdnb.myfczy168.top, port: 38225, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 韩国-三网优化2-1G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b07b38c8-7e23-40a7-af72-a84e79d05350, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-2K, server: 5.39.254.196, port: 40125, type: vmess, uuid: 7429f1a7-24e3-4e60-be5a-2fdfc693ec47, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: IEPL专线 澳大利亚 NO1-1A, server: i.needss.top, port: 20011, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 627ff416-d5f2-4c67-afb8-519d2b843972, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-1I, server: 5.39.254.196, port: 40125, type: vmess, uuid: 40fb3ecd-0304-4c19-8bad-ce380134a2bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-2F, server: 5.39.254.196, port: 40125, type: vmess, uuid: 8babb628-b4ae-4df4-86ab-41dcc1f73069, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-2N, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 28876398-a5c7-42fa-bae7-a9275eb58f6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 德国 DE | BIZ, server: ge.cooc.icu, port: 35607, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 公益|俄罗斯|V2-2Q, server: 45.130.147.178, port: 40045, type: vmess, uuid: db820454-843f-4308-9cbd-b8b4e43dbf6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 日本中转 05, server: gstdnb.myfczy168.top, port: 21743, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: IEPL专线 俄罗斯 NO1-1A, server: i.needss.top, port: 21111, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 英国中转 02, server: gstdnb.myfczy168.top, port: 34013, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 日本 A JP, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 公益|俄罗斯|V2-1D, server: 45.130.147.178, port: 40045, type: vmess, uuid: 54f93bba-4d03-4b11-a672-ce223c4d6fec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-2H, server: 5.39.254.196, port: 40125, type: vmess, uuid: 9eacd1bd-20d3-4293-ae72-af995551f492, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: IEPL专线 意大利 NO1-1B, server: i.needss.top, port: 33320, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 越南 VN | BIZ, server: vn.cooc.icu, port: 35601, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 韩国-三网优化2-3N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4a29d976-7c93-45e8-b53b-e6a9efbda0c8, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1H, server: 45.130.147.178, port: 40045, type: vmess, uuid: 7a07a865-a62b-42ef-a207-828310d38ab2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|俄罗斯|V2-1T, server: 45.130.147.178, port: 40045, type: vmess, uuid: 3d9ff553-e822-4cb4-a667-89eaf352862b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 深港专线-澳大利亚-1B, server: dzgz.tcity8.monster, port: 35220, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2W, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9e04b600-f67f-4c6d-8c0d-2b79a378dbcd, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-2L, server: 5.39.254.196, port: 40125, type: vmess, uuid: fddef38a-739f-47a5-85df-f2778a14c799, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-1V, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: b5c9a6bb-c007-499e-9e78-0313d0bed21c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-3F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 28596f28-7a9b-4bb4-901f-189c4d713465, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: IEPL专线 美国 NO1-1A, server: i.needss.top, port: 54770, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2x, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d93f4ea5-2afe-47ee-a4aa-1c9f18b95a6e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 深港专线-德国-1A, server: dzgz.tcity8.monster, port: 35222, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3f104562-1c97-43ed-98d6-f1a232df808f, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-2O, server: 5.39.254.196, port: 40125, type: vmess, uuid: 2570f70b-4e7c-49cb-9ffe-b6cfb732d409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-1U, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 54ce693e-5922-4f9a-aa61-34519538a971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-3G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d8b92cb5-77b3-44d2-9b6b-eb167a276851, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 中港隧道-香港1-1B, server: jzgz.tcity8.monster, port: 22224, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 马来西亚 MY | BIZ, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 韩国-三网优化2-3O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ae0579c5-ac0b-44bf-8965-90bb9d1f0734, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 中港隧道-加拿大-1A, server: jzgz.tcity8.monster, port: 22236, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1E, server: 45.130.147.178, port: 40045, type: vmess, uuid: 1c9671c9-6067-4a18-a7be-753dbeb64459, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-2D, server: 5.39.254.196, port: 40125, type: vmess, uuid: 2b73f033-2f9a-486c-9a2b-44d4c04a93bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-2T, server: 5.39.254.196, port: 40125, type: vmess, uuid: 924c2ee3-4276-47cb-93d2-ec9267faeccd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CM 隧道 法国 NO1-1B, server: js3.needss.top, port: 52118, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 深港专线-香港3-1A, server: dzgz.tcity8.monster, port: 35214, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2A, server: 45.130.147.178, port: 40045, type: vmess, uuid: 7e835424-bbd7-48ea-acc3-9f7c3b075594, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-2C, server: 5.39.254.196, port: 40125, type: vmess, uuid: 2086056b-8258-4aac-b595-79026272ba6a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中港隧道-新加坡-1A, server: jzgz.tcity8.monster, port: 22231, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-1S, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 66a4ef54-9238-40e2-b6b1-4f388022c4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|HK01|V2-2R, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 734f0c47-6145-4aad-81a5-f68339cd9a8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: US-FREENODE-1A, server: exclusively-foriran.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 深港专线-台湾-1A, server: dzgz.tcity8.monster, port: 35224, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 美国中转 02, server: gstdnb.myfczy168.top, port: 15070, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 中港隧道-印度-1B, server: jzgz.tcity8.monster, port: 22238, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 香港 B HK, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 深港专线-英国-1A, server: dzgz.tcity8.monster, port: 35221, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: DE-建議啟用IPV6-1A, server: 2a01:4f8:272:5aa1:424f:59ad:652a:cc71, port: 2052, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoftvideo/HEAC?ed=2048", headers: {Host: falkenstein.saxony.germany.internetcdn.internetacc.live}}, udp: true}
-  - {name: 韩国-三网优化2-1D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 230a3e1f-a5fe-44e5-95eb-fdc49cf1c5f0, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2N, server: 45.130.147.178, port: 40045, type: vmess, uuid: 28876398-a5c7-42fa-bae7-a9275eb58f6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 台湾中转 04, server: gstdnb.myfczy168.top, port: 25149, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 公益|HK01|V2-1Z, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: af78bee9-0c7a-4803-8d17-ea0b5759d754, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-1J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d329f512-1367-40f3-94d7-e763996640d4, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 深港专线-新加坡-1A, server: dzgz.tcity8.monster, port: 35217, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 中港隧道-香港3-1A, server: jzgz.tcity8.monster, port: 22003, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本中转 02, server: gstdnb.myfczy168.top, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 深港专线-印度-1A, server: dzgz.tcity8.monster, port: 35223, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 英国中转 03, server: gstdnb.myfczy168.top, port: 13708, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 公益|英国|V2-1x, server: 5.39.254.196, port: 40125, type: vmess, uuid: 11b936bb-3109-422c-b022-7d7e4799373e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中港隧道-德国-1A, server: jzgz.tcity8.monster, port: 22230, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-3I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0bdf2722-0b57-46c7-9fd8-0d983702769f, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: IEPL专线 西班牙 NO1-1B, server: sh3.needss.top, port: 45112, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-2D, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 2b73f033-2f9a-486c-9a2b-44d4c04a93bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 美国原生NO1-1B, server: jzgz.tcity8.monster, port: 22000, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: CM 隧道 荷兰 NO1-1B, server: sh3.needss.top, port: 20024, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|英国|V2-2E, server: 5.39.254.196, port: 40125, type: vmess, uuid: cc45b5b4-2e20-4926-a955-45e39f25b1e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-1I, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 40fb3ecd-0304-4c19-8bad-ce380134a2bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-3L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 56f8fd5b-c0a9-4250-a5bd-821ee4a9c738, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1Z, server: 45.130.147.178, port: 40045, type: vmess, uuid: af78bee9-0c7a-4803-8d17-ea0b5759d754, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 台湾中转 02, server: gstdnb.myfczy168.top, port: 17010, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: IEPL专线 美国 NO3-1B, server: i.needss.top, port: 44410, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1G, server: 45.130.147.178, port: 40045, type: vmess, uuid: ae418236-916f-4069-80ec-ad5a422fb514, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|俄罗斯|V2-1W, server: 45.130.147.178, port: 40045, type: vmess, uuid: d58d0a56-451e-4974-bf76-a397d10a5bb5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: JP 海外用户, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 香港-1A, server: xg1.tcity8.buzz, port: 10010, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0f90cad5-70f9-44df-ad92-afd87e0917b3, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: US-NEWYORK2-1A, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 8880, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 新加坡1SS移动直连, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: 039198a9-0d18-4b28-a5af-5e572027b65c, udp: true}
-  - {name: 公益|俄罗斯|V2-1B, server: 45.130.147.178, port: 40045, type: vmess, uuid: 71d34a55-e540-4bd9-af18-3b77a39d212e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 美国原生NO3-1B, server: jzgz.tcity8.monster, port: 22002, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL专线 台湾 NO1-1B, server: i.needss.top, port: 20016, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL专线 瑞典 NO1-1B, server: i.needss.top, port: 31001, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1S, server: 45.130.147.178, port: 40045, type: vmess, uuid: 66a4ef54-9238-40e2-b6b1-4f388022c4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-2R, server: 5.39.254.196, port: 40125, type: vmess, uuid: 734f0c47-6145-4aad-81a5-f68339cd9a8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: BRAZIL-1A, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 8080, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/Microsoftupdate/TG@pwsair?ed=2048", headers: {Host: jardimperiperi.saopaulo.brazil.internetcdn.internetacc.live}}, udp: true}
-  - {name: IEPL专线 新加坡 NO1-1B, server: i.needss.top, port: 44412, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|英国|V2-1O, server: 5.39.254.196, port: 40125, type: vmess, uuid: cf4e25c0-fa46-4ce9-8606-0d44f33e7023, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: IEPL专线 德国 NO1-1A, server: js3.needss.top, port: 54782, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1Q, server: 45.130.147.178, port: 40045, type: vmess, uuid: 971a17d1-7419-4e6c-9a51-c8b81ccc9298, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中港隧道-台湾-1A, server: jzgz.tcity8.monster, port: 22240, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 新加坡中转 02, server: gstdnb.myfczy168.top, port: 44776, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 印度尼西亚2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 深港专线-印度-1B, server: dzgz.tcity8.monster, port: 35223, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d80e806b-f187-49ee-97f7-b7d98579e16b, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1W, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f4a03792-bd33-4fe1-bb77-40b919609220, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 香港中转 04, server: gstdnb.myfczy168.top, port: 11618, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 公益|HK01|V2-1E, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 1c9671c9-6067-4a18-a7be-753dbeb64459, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: US-FREENODE-1B, server: exclusively-foriran.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 美国中转 01, server: gstdnb.myfczy168.top, port: 26858, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: IEPL专线 英国 NO1-1B, server: sh3.needss.top, port: 54774, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ce46af7a-2ddc-4502-8266-c4c17fdf5090, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 美国原生NO2-1B, server: dzgz.tcity8.monster, port: 35209, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-1G, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: ae418236-916f-4069-80ec-ad5a422fb514, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-1K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 50796bbd-a7a5-400a-af97-d68fc9d25f3a, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 深港专线-香港1-1B, server: dzgz.tcity8.monster, port: 35212, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: CM 隧道 法国 NO1-1A, server: js3.needss.top, port: 52118, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 中港隧道-德国-1B, server: jzgz.tcity8.monster, port: 22230, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cf63b42d-11b6-4b8d-ba5d-b9a6a3f20b14, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-2E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: acba5973-c99c-428a-97f0-bb988dbff569, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-2J, server: 5.39.254.196, port: 40125, type: vmess, uuid: 5e3f9df9-10cb-4c7e-8925-58b0673e22cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d46db64f-f6c2-4d09-99d0-49754255f218, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2I, server: 45.130.147.178, port: 40045, type: vmess, uuid: 775ee653-c437-40a1-bb2b-dc691f2d04ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-1C, server: 5.39.254.196, port: 40125, type: vmess, uuid: cc616694-63bc-4d4f-8e93-c58c8fce4971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-2I, server: 5.39.254.196, port: 40125, type: vmess, uuid: 775ee653-c437-40a1-bb2b-dc691f2d04ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-2G, server: 5.39.254.196, port: 40125, type: vmess, uuid: c8ebf54d-d78e-44ec-8efc-0021620a512e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-1M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2b253506-20ef-437e-a2cf-95b6a6610f37, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2T, server: 45.130.147.178, port: 40045, type: vmess, uuid: 924c2ee3-4276-47cb-93d2-ec9267faeccd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-1O, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: cf4e25c0-fa46-4ce9-8606-0d44f33e7023, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-1x, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 79b28453-337d-4337-9511-c4cca276836d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-2N, server: 5.39.254.196, port: 40125, type: vmess, uuid: 28876398-a5c7-42fa-bae7-a9275eb58f6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-1J, server: 5.39.254.196, port: 40125, type: vmess, uuid: 3c2b86e7-2847-4e54-9dd6-3aa5f8d7230a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 新加坡1SS移动飞快, server: sg6.hy2.one, port: 23343, type: ss, cipher: chacha20-ietf-poly1305, password: 6f0a100e-eb9c-481e-93fe-c92b1bca33cd, udp: true}
-  - {name: 韩国-三网优化2-2Z, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2ea929da-17b9-43a2-a96f-bc74893a11c6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-1Q, server: 5.39.254.196, port: 40125, type: vmess, uuid: 971a17d1-7419-4e6c-9a51-c8b81ccc9298, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: US-NEWYORK2-1B, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 8880, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 公益|英国|V2-1F, server: 5.39.254.196, port: 40125, type: vmess, uuid: fd6402d9-a0f6-4745-8476-5f32b513cc03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-2H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dc630538-df1c-456d-92f9-41ec8cb8840d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-2B, server: 5.39.254.196, port: 40125, type: vmess, uuid: ded526c3-49c4-42d0-88f0-1b300e165c72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 深港专线-新加坡-1B, server: dzgz.tcity8.monster, port: 35217, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾 C TW, server: tw3.iepl.cooc.icu, port: 35111, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: IEPL专线 瑞典 NO1-1A, server: i.needss.top, port: 31001, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL专线 以色列 NO1-1A, server: i.needss.top, port: 30024, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-1A, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 6d544a04-4374-41a2-8f67-63a496717703, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|HK01|V2-2F, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 8babb628-b4ae-4df4-86ab-41dcc1f73069, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 深港专线-香港1-1A, server: dzgz.tcity8.monster, port: 35212, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本中转 04, server: gstdnb.myfczy168.top, port: 38649, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: IEPL专线 韩国 NO1-1A, server: i.needss.top, port: 20021, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-2S, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 3a93862c-83c8-42c9-9280-29d148441743, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|俄罗斯|V2-2P, server: 45.130.147.178, port: 40045, type: vmess, uuid: 14e4157a-47db-45b4-9571-c973e85e53d4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: US-NEWYORK5-1A, server: cdnblog.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 公益|俄罗斯|V2-1P, server: 45.130.147.178, port: 40045, type: vmess, uuid: c9256962-3202-4c45-9556-3e535c824b23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e7754de0-eecc-46e1-a7cd-b2de5e7e9f5d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2E, server: 45.130.147.178, port: 40045, type: vmess, uuid: cc45b5b4-2e20-4926-a955-45e39f25b1e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: IEPL 专线 菲律宾 NO3-1A, server: i.needss.top, port: 20019, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|英国|V2-1W, server: 5.39.254.196, port: 40125, type: vmess, uuid: d58d0a56-451e-4974-bf76-a397d10a5bb5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-1A, server: 5.39.254.196, port: 40125, type: vmess, uuid: 6d544a04-4374-41a2-8f67-63a496717703, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-2U, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3838f542-c078-4106-a144-245085d654d9, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-3M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 74434946-9501-4c7f-a61f-652a9f952640, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|HK01|V2-1B, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 71d34a55-e540-4bd9-af18-3b77a39d212e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: IEPL专线 意大利 NO1-1A, server: i.needss.top, port: 33320, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c9664965-bc8b-46f2-aa88-d6d82a3fe2c6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: TW 海外用户, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 深港专线-日本-1A, server: dzgz.tcity8.monster, port: 35218, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国 C KR, server: kr3.iepl.cooc.icu, port: 35609, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 中港隧道-英国-1A, server: jzgz.tcity8.monster, port: 22229, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 中港隧道-香港2-1A, server: jzgz.tcity8.monster, port: 22226, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 中港隧道-台湾-1B, server: jzgz.tcity8.monster, port: 22240, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾 A TW, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 公益|英国|V2-1S, server: 5.39.254.196, port: 40125, type: vmess, uuid: 66a4ef54-9238-40e2-b6b1-4f388022c4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-1K, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 2d786524-1894-4054-ba6d-1f2c4ea8ca4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-2C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6bb09bfb-10a5-4c37-8c40-416969dc194d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 新加坡02-V4-流媒体, server: cf.hy2.one, port: 2052, type: vmess, uuid: 6f0a100e-eb9c-481e-93fe-c92b1bca33cd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /0, headers: {Host: sg0002.hy-2.top}}, udp: true}
-  - {name: 韩国-三网优化2-2N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 82cbe52f-74a0-44b4-8791-67c44aee96cf, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-2O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2690b875-b9d4-4562-80e8-fcb60a3fdb72, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1L, server: 45.130.147.178, port: 40045, type: vmess, uuid: a498707a-2035-464f-8ea7-3ac6243625f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: IEPL专线 俄罗斯 NO1-1B, server: i.needss.top, port: 21111, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾02-3x-流媒体, server: cf.hy2.one, port: 80, type: vmess, uuid: 6f0a100e-eb9c-481e-93fe-c92b1bca33cd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /af323d, headers: {Host: tw02.hy2.one}}, udp: true}
-  - {name: 韩国-三网优化2-1T, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5d6bf0ba-f232-4592-8881-f85a993b2ed2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: FR-LILLE-ONLYIPV6-2-1B, server: lille.hauts-de-france.france.intacc-cdn.arjcet.org, port: 55555, type: ss, cipher: chacha20-ietf-poly1305, password: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, udp: true}
-  - {name: 公益|俄罗斯|V2-1V, server: 45.130.147.178, port: 40045, type: vmess, uuid: b5c9a6bb-c007-499e-9e78-0313d0bed21c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: FR-LILLE-ONLYIPV6-2-1A, server: lille.hauts-de-france.france.intacc-cdn.arjcet.org, port: 55555, type: ss, cipher: chacha20-ietf-poly1305, password: 5117e705-a121-49c8-9dd3-db437c5106ad, udp: true}
-  - {name: UK-LONDON-01-1A, server: cdnblog.intacc-cdn.arjcet.org, port: 2082, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair?ed=2048", headers: {Host: London.England.UnitedKingdom.internetcdn.internetacc.live}}, udp: true}
-  - {name: 韩国-三网优化2-3A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 953abdc0-24dd-4e98-93a0-dda4bb16b799, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|HK01|V2-1x, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 11b936bb-3109-422c-b022-7d7e4799373e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|HK01|V2-1C, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: cc616694-63bc-4d4f-8e93-c58c8fce4971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: FI-HELSINKI-ONLYIPV6-2-1B, server: helsinki.uusimaa.finland.fi.internetcdn.ggff.net, port: 55555, type: ss, cipher: chacha20-ietf-poly1305, password: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, udp: true}
-  - {name: 香港 C HK, server: hk3.iepl.cooc.icu, port: 23881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 韩国-三网优化2-1L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f6dc6464-c3bb-4655-a023-fdee5d4dc3a5, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1Q, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 47e30da0-c798-4a13-b3bf-d35aa856768d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-3K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 36ff8acc-6741-471c-9855-c35e877b254d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1O, server: 45.130.147.178, port: 40045, type: vmess, uuid: cf4e25c0-fa46-4ce9-8606-0d44f33e7023, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-2P, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 14e4157a-47db-45b4-9571-c973e85e53d4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|英国|V2-2P, server: 5.39.254.196, port: 40125, type: vmess, uuid: 14e4157a-47db-45b4-9571-c973e85e53d4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-1Z, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1110ab4e-4e52-41a6-9c66-f23d8e61d86e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 香港-1B, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 614d95a1-3d7a-4549-a401-7c63a5652b38, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 深港专线-香港3-1B, server: dzgz.tcity8.monster, port: 35214, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: FR-LILLE-1A, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 2095, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/AMDgpu/TG@pwsair/Intelcpu?ed=2048", headers: {Host: lille.hauts-de-france.france.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 公益|英国|V2-2Q, server: 5.39.254.196, port: 40125, type: vmess, uuid: db820454-843f-4308-9cbd-b8b4e43dbf6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 深港专线-香港2-1B, server: dzgz.tcity8.monster, port: 35213, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 中港隧道-日本-1A, server: jzgz.tcity8.monster, port: 22235, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|英国|V2-2M, server: 5.39.254.196, port: 40125, type: vmess, uuid: 486c2663-27d1-4fb1-89ac-0cbbb8cc89f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-3H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eddb7537-bc0a-43bc-9ae4-96fc579adf24, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 美国原生NO1-1A, server: jzgz.tcity8.monster, port: 22000, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 新加坡05极速节点|油管速度优化, server: yx.sulink.one, port: 80, type: vmess, uuid: 039198a9-0d18-4b28-a5af-5e572027b65c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg05.sulink.one}}, udp: true}
-  - {name: 公益|俄罗斯|V2-1x, server: 45.130.147.178, port: 40045, type: vmess, uuid: 11b936bb-3109-422c-b022-7d7e4799373e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中港隧道-澳大利亚-1B, server: jzgz.tcity8.monster, port: 22237, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 美国原生NO3-1A, server: jzgz.tcity8.monster, port: 22002, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|HK01|V2-2M, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 486c2663-27d1-4fb1-89ac-0cbbb8cc89f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 美国中转 03, server: gstdnb.myfczy168.top, port: 23631, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 韩国-三网优化2-1P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: df2ad66b-ccf3-42f7-8939-020040a33b72, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a02d8e75-1d55-47b9-bddb-c580c1d27905, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1V, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 39956923-af96-4310-bba3-03b37476ba74, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本 C JP, server: jp3.iepl.cooc.icu, port: 19881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: JP-TOKYO 试用-1A, server: shibuya-tokyo-japan-amazon.sgqt.fun, port: 8080, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/TG@pwsair/microsoft?ed=2048", headers: {Host: shibuya.tokyo.japan.amazon.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: 香港 A HK, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 公益|英国|V2-1U, server: 5.39.254.196, port: 40125, type: vmess, uuid: 54ce693e-5922-4f9a-aa61-34519538a971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 法国 FR BIZ, server: fr.cooc.icu, port: 35611, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: IEPL专线 印度 NO1-1A, server: i.needss.top, port: 15442, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL 专线 菲律宾 NO3-1B, server: i.needss.top, port: 20019, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 98d93a29-a166-401c-8982-bf4e0c87362c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 新加坡中转 01, server: gstdnb.myfczy168.top, port: 21667, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: IEPL专线 美国 NO3-1A, server: i.needss.top, port: 44410, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 香港中转 01, server: gstdnb.myfczy168.top, port: 43641, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 中港隧道-香港1-1A, server: jzgz.tcity8.monster, port: 22224, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2L, server: 45.130.147.178, port: 40045, type: vmess, uuid: fddef38a-739f-47a5-85df-f2778a14c799, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|俄罗斯|V2-1M, server: 45.130.147.178, port: 40045, type: vmess, uuid: f0c13741-72ce-4906-99c8-cb80e10e3da4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 深港专线-加拿大-1B, server: dzgz.tcity8.monster, port: 35216, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL专线 加拿大 NO1-1B, server: js3.needss.top, port: 20012, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2Y, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 93e8ddaa-62d9-462f-9f2f-993a5cc2efc7, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1U, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9d526b92-6da5-45bc-a1f0-a3ad5bbe6144, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本 B JP, server: jp2.iepl.cooc.icu, port: 47101, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 台湾中转 01, server: gstdnb.myfczy168.top, port: 27110, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 香港中转 05, server: gstdnb.myfczy168.top, port: 20901, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
+  - {name: 公益|英国|V2-1D, server: 5.39.254.196, port: 40125, type: vmess, uuid: f0c13741-72ce-4906-99c8-cb80e10e3da4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 深港专线-印度, server: dzgz.tcity8.monster, port: 35223, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 美国NO.2-1B, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 越南 VN | BIZ-1B, server: vn.cooc.icu, port: 35601, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 英国 UK | BIZ-1A, server: uk.cooc.icu, port: 35605, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 公益|俄罗斯|V2-2J, server: 45.130.147.178, port: 40045, type: vmess, uuid: c8ebf54d-d78e-44ec-8efc-0021620a512e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2V, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f6dc6464-c3bb-4655-a023-fdee5d4dc3a5, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|HK01|V2-2P, server: 36.228.209.142, port: 665, type: vmess, uuid: 971a17d1-7419-4e6c-9a51-c8b81ccc9298, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9d526b92-6da5-45bc-a1f0-a3ad5bbe6144, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本中转 04, server: gstdnb.myfczy168.top, port: 38649, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|俄罗斯|V2-2S, server: 45.130.147.178, port: 40045, type: vmess, uuid: 8babb628-b4ae-4df4-86ab-41dcc1f73069, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL专线 阿根廷 NO1-1A, server: i.needss.top, port: 20014, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国 B KR-1A, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 泰国 TH BIZ-1A, server: th.cooc.icu, port: 35613, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 香港 C HK-1A, server: hk3.iepl.cooc.icu, port: 23881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 韩国-三网优化2-1Y, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a2cb796e-652c-4ac7-ad66-893b2207b447, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: DE-建議啟用IPV6-1B, server: 2a01:4f8:272:5aa1:424f:59ad:652a:cc71, port: 2052, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoftvideo/HEAC?ed=2048", headers: {Host: falkenstein.saxony.germany.internetcdn.internetacc.live}}, udp: true}
+  - {name: 公益|HK01|V2-1N, server: 36.228.209.142, port: 665, type: vmess, uuid: d46f1cab-30af-40b3-a967-f8db1897f1ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-1R, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9b4ce4ad-446f-4add-b78b-39d16cf01cf6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 美国原生NO1, server: jzgz.tcity8.monster, port: 22000, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 新加坡1SS移动直连, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: baea32de-719e-4d86-860c-5feea43be324, udp: true}
+  - {name: 美国NO.2-1A, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-1I, server: 5.39.254.196, port: 40125, type: vmess, uuid: 11b936bb-3109-422c-b022-7d7e4799373e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US-NEWYORK2-1A, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 8880, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 印度尼西亚1-1A, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 台湾 NO1-1B, server: i.needss.top, port: 20016, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-1F, server: 36.228.209.142, port: 665, type: vmess, uuid: 9eacd1bd-20d3-4293-ae72-af995551f492, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-2A, server: 45.130.147.178, port: 40045, type: vmess, uuid: 3a93862c-83c8-42c9-9280-29d148441743, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-1x, server: 36.228.209.142, port: 665, type: vmess, uuid: 734f0c47-6145-4aad-81a5-f68339cd9a8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-1U, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e0f14455-78fb-4d64-828c-24e6bc57f0e0, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|英国|V2-1Q, server: 5.39.254.196, port: 40125, type: vmess, uuid: fddef38a-739f-47a5-85df-f2778a14c799, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 953abdc0-24dd-4e98-93a0-dda4bb16b799, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|英国|V2-1R, server: 5.39.254.196, port: 40125, type: vmess, uuid: 2570f70b-4e7c-49cb-9ffe-b6cfb732d409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-2U, server: 45.130.147.178, port: 40045, type: vmess, uuid: 4ddc7a28-3c44-4ed5-b86c-03b1ff122708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-2N, server: 5.39.254.196, port: 40125, type: vmess, uuid: cc616694-63bc-4d4f-8e93-c58c8fce4971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-1A, server: 45.130.147.178, port: 40045, type: vmess, uuid: fd6402d9-a0f6-4745-8476-5f32b513cc03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 台湾 C TW-1A, server: tw3.iepl.cooc.icu, port: 35111, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 新加坡 C SG-1A, server: sg3.iepl.cooc.icu, port: 35107, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: IEPL专线 意大利 NO1-1A, server: i.needss.top, port: 33320, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 新加坡NO.2-1B, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 香港 B HK-1A, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 公益|俄罗斯|V2-1N, server: 45.130.147.178, port: 40045, type: vmess, uuid: d46f1cab-30af-40b3-a967-f8db1897f1ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国NO.1-1B, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-1E, server: 45.130.147.178, port: 40045, type: vmess, uuid: 66a4ef54-9238-40e2-b6b1-4f388022c4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-2G, server: 45.130.147.178, port: 40045, type: vmess, uuid: 775ee653-c437-40a1-bb2b-dc691f2d04ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-1K, server: 5.39.254.196, port: 40125, type: vmess, uuid: a498707a-2035-464f-8ea7-3ac6243625f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL专线 瑞典 NO1-1B, server: i.needss.top, port: 31001, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 加拿大 NO1-1B, server: js3.needss.top, port: 20012, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eddb7537-bc0a-43bc-9ae4-96fc579adf24, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 新加坡 B SG-1A, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 公益|英国|V2-2A, server: 5.39.254.196, port: 40125, type: vmess, uuid: 3a93862c-83c8-42c9-9280-29d148441743, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 台湾 A TW-1A, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 韩国-三网优化2-3K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e62576f2-03f4-4bae-890f-248f52902831, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 新加坡中转 02, server: gstdnb.myfczy168.top, port: 44776, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|俄罗斯|V2-2F, server: 45.130.147.178, port: 40045, type: vmess, uuid: 7429f1a7-24e3-4e60-be5a-2fdfc693ec47, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 中港隧道-德国, server: jzgz.tcity8.monster, port: 22230, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1S, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eb32219b-a858-467e-a6da-341de6c1a5f2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|HK01|V2-1T, server: 36.228.209.142, port: 665, type: vmess, uuid: 3d9ff553-e822-4cb4-a667-89eaf352862b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-3L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 39956923-af96-4310-bba3-03b37476ba74, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-3P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2690b875-b9d4-4562-80e8-fcb60a3fdb72, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 加拿大2-1B, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-1x, server: 45.130.147.178, port: 40045, type: vmess, uuid: 734f0c47-6145-4aad-81a5-f68339cd9a8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US-NEWYORK3-1B, server: cdn3.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 公益|HK01|V2-2I, server: 36.228.209.142, port: 665, type: vmess, uuid: 40fb3ecd-0304-4c19-8bad-ce380134a2bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 英国中转 01, server: gstdnb.myfczy168.top, port: 29172, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|俄罗斯|V2-2B, server: 45.130.147.178, port: 40045, type: vmess, uuid: db820454-843f-4308-9cbd-b8b4e43dbf6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL专线 美国 NO3-1A, server: i.needss.top, port: 44410, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 以色列 NO1-1A, server: i.needss.top, port: 30024, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: JP-TOKYO 试用-1B, server: shibuya-tokyo-japan-amazon.sgqt.fun, port: 8080, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/TG@pwsair/microsoft?ed=2048", headers: {Host: shibuya.tokyo.japan.amazon.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 法国 FR BIZ-1A, server: fr.cooc.icu, port: 35611, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 台湾 C TW-1B, server: tw3.iepl.cooc.icu, port: 35111, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 俄罗斯 RU BIZ-1B, server: ru.cooc.icu, port: 35645, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 美国 A US-1B, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 韩国-三网优化2-1D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d46db64f-f6c2-4d09-99d0-49754255f218, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 香港-1B, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 法国2-1A, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-1L, server: 36.228.209.142, port: 665, type: vmess, uuid: 28876398-a5c7-42fa-bae7-a9275eb58f6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-2V, server: 45.130.147.178, port: 40045, type: vmess, uuid: d31ac4fb-ccd3-4776-83e0-aa5d57b02fc7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-3I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 93e8ddaa-62d9-462f-9f2f-993a5cc2efc7, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: FR-LILLE-ONLYIPV6-2-1B, server: lille.hauts-de-france.france.intacc-cdn.arjcet.org, port: 55555, type: ss, cipher: chacha20-ietf-poly1305, password: 5117e705-a121-49c8-9dd3-db437c5106ad, udp: true}
+  - {name: 韩国-三网优化2-3F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ba201df2-effd-45b5-91a9-0001d7186f5c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 印度2-1B, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-2P, server: 45.130.147.178, port: 40045, type: vmess, uuid: 971a17d1-7419-4e6c-9a51-c8b81ccc9298, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ce46af7a-2ddc-4502-8266-c4c17fdf5090, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-3H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d80e806b-f187-49ee-97f7-b7d98579e16b, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 台湾中转 04, server: gstdnb.myfczy168.top, port: 25149, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 台湾1-1B, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 中港隧道-印度, server: jzgz.tcity8.monster, port: 22238, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-1Q, server: 36.228.209.142, port: 665, type: vmess, uuid: fddef38a-739f-47a5-85df-f2778a14c799, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-2Q, server: 36.228.209.142, port: 665, type: vmess, uuid: cf4e25c0-fa46-4ce9-8606-0d44f33e7023, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-2V, server: 5.39.254.196, port: 40125, type: vmess, uuid: d31ac4fb-ccd3-4776-83e0-aa5d57b02fc7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cf63b42d-11b6-4b8d-ba5d-b9a6a3f20b14, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: IEPL专线 韩国 NO1-1A, server: i.needss.top, port: 20021, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-1H, server: 5.39.254.196, port: 40125, type: vmess, uuid: b5c9a6bb-c007-499e-9e78-0313d0bed21c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-1G, server: 5.39.254.196, port: 40125, type: vmess, uuid: 14e4157a-47db-45b4-9571-c973e85e53d4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL专线 澳大利亚 NO1-1B, server: i.needss.top, port: 20011, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-1Q, server: 45.130.147.178, port: 40045, type: vmess, uuid: fddef38a-739f-47a5-85df-f2778a14c799, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL专线 印尼 NO1-1A, server: i.needss.top, port: 25127, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2T, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 28596f28-7a9b-4bb4-901f-189c4d713465, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 印度尼西亚2-1A, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 新加坡05极速节点|油管速度优化, server: yx.sulink.one, port: 80, type: vmess, uuid: baea32de-719e-4d86-860c-5feea43be324, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg05.sulink.one}}, udp: true}
+  - {name: 公益|俄罗斯|V2-1O, server: 45.130.147.178, port: 40045, type: vmess, uuid: cf938b3b-daaf-431b-8992-a163c875fa52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-2R, server: 5.39.254.196, port: 40125, type: vmess, uuid: c9256962-3202-4c45-9556-3e535c824b23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL 专线 菲律宾 NO3-1B, server: i.needss.top, port: 20019, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 西班牙 NO1-1A, server: sh3.needss.top, port: 45112, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 72c89d8e-4d92-424d-9df5-82a5d752aeb6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 印度1-1B, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a6f622a0-be67-46cf-9a43-6df4b2304f3e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|英国|V2-1Z, server: 5.39.254.196, port: 40125, type: vmess, uuid: 54ce693e-5922-4f9a-aa61-34519538a971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-1I, server: 36.228.209.142, port: 665, type: vmess, uuid: 11b936bb-3109-422c-b022-7d7e4799373e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-1O, server: 36.228.209.142, port: 665, type: vmess, uuid: cf938b3b-daaf-431b-8992-a163c875fa52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 627ff416-d5f2-4c67-afb8-519d2b843972, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 香港 A HK-1B, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 中港隧道-香港3, server: jzgz.tcity8.monster, port: 22003, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: CM 隧道 荷兰 NO1-1B, server: sh3.needss.top, port: 20024, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-3D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5d6bf0ba-f232-4592-8881-f85a993b2ed2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: IEPL专线 香港 NO3-1A, server: i.needss.top, port: 65533, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2W, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 36ff8acc-6741-471c-9855-c35e877b254d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: US-NEWYORK2-1B, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 8880, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 公益|英国|V2-1E, server: 5.39.254.196, port: 40125, type: vmess, uuid: 66a4ef54-9238-40e2-b6b1-4f388022c4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-1B, server: 5.39.254.196, port: 40125, type: vmess, uuid: 2b73f033-2f9a-486c-9a2b-44d4c04a93bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-1Y, server: 36.228.209.142, port: 665, type: vmess, uuid: 7a07a865-a62b-42ef-a207-828310d38ab2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国原生NO4, server: dzgz.tcity8.monster, port: 35208, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国 B KR-1B, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 韩国-三网优化2-2L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c9f40299-6400-41da-8382-1fc4439df5f9, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 加拿大2-1A, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 印度尼西亚1-1B, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 中港隧道-英国, server: jzgz.tcity8.monster, port: 22229, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-2V, server: 36.228.209.142, port: 665, type: vmess, uuid: d31ac4fb-ccd3-4776-83e0-aa5d57b02fc7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-2J, server: 36.228.209.142, port: 665, type: vmess, uuid: c8ebf54d-d78e-44ec-8efc-0021620a512e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-1O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0f90cad5-70f9-44df-ad92-afd87e0917b3, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 新加坡NO.2-1A, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 日本 C JP-1B, server: jp3.iepl.cooc.icu, port: 19881, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 韩国-三网优化2-1Q, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: acba5973-c99c-428a-97f0-bb988dbff569, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 深港专线-新加坡, server: dzgz.tcity8.monster, port: 35217, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国 A KR-1B, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 法国1-1A, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-2H, server: 45.130.147.178, port: 40045, type: vmess, uuid: af78bee9-0c7a-4803-8d17-ea0b5759d754, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-2G, server: 36.228.209.142, port: 665, type: vmess, uuid: 775ee653-c437-40a1-bb2b-dc691f2d04ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL专线 以色列 NO1-1B, server: i.needss.top, port: 30024, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-1C, server: 5.39.254.196, port: 40125, type: vmess, uuid: 3c2b86e7-2847-4e54-9dd6-3aa5f8d7230a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港 A HK-1A, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: IEPL专线 英国 NO1-1B, server: sh3.needss.top, port: 54774, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b07b38c8-7e23-40a7-af72-a84e79d05350, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eb7bde8b-5734-4b32-9525-12cb6dd30e87, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|俄罗斯|V2-2Q, server: 45.130.147.178, port: 40045, type: vmess, uuid: cf4e25c0-fa46-4ce9-8606-0d44f33e7023, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港3, server: xg3.tcity8.buzz, port: 10010, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 美国 NO3-1B, server: i.needss.top, port: 44410, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: CM 隧道 日本 NO1-1A, server: i.needss.top, port: 52117, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 印度1-1A, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-2L, server: 45.130.147.178, port: 40045, type: vmess, uuid: ae418236-916f-4069-80ec-ad5a422fb514, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-1H, server: 45.130.147.178, port: 40045, type: vmess, uuid: b5c9a6bb-c007-499e-9e78-0313d0bed21c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-1J, server: 45.130.147.178, port: 40045, type: vmess, uuid: cc45b5b4-2e20-4926-a955-45e39f25b1e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL专线 澳大利亚 NO1-1A, server: i.needss.top, port: 20011, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 马来西亚 MY | BIZ-1A, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 公益|英国|V2-2E, server: 5.39.254.196, port: 40125, type: vmess, uuid: 7e835424-bbd7-48ea-acc3-9f7c3b075594, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c2c3e7ef-22fd-41e3-9034-ba765e589501, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|俄罗斯|V2-1U, server: 45.130.147.178, port: 40045, type: vmess, uuid: 54f93bba-4d03-4b11-a672-ce223c4d6fec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 中港隧道-日本, server: jzgz.tcity8.monster, port: 22235, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-3E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 614d95a1-3d7a-4549-a401-7c63a5652b38, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|俄罗斯|V2-1F, server: 45.130.147.178, port: 40045, type: vmess, uuid: 9eacd1bd-20d3-4293-ae72-af995551f492, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-2B, server: 36.228.209.142, port: 665, type: vmess, uuid: db820454-843f-4308-9cbd-b8b4e43dbf6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-1V, server: 45.130.147.178, port: 40045, type: vmess, uuid: 81651a3d-d612-45e8-9040-ec3ff296dfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-1J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1110ab4e-4e52-41a6-9c66-f23d8e61d86e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 台湾2-1A, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 新加坡中转 01, server: gstdnb.myfczy168.top, port: 21667, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 韩国-三网优化2-1F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f4a03792-bd33-4fe1-bb77-40b919609220, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-1H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6c2079fc-c8a4-40fd-b746-eb78be38c80d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-2x, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 56f8fd5b-c0a9-4250-a5bd-821ee4a9c738, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|英国|V2-1x, server: 5.39.254.196, port: 40125, type: vmess, uuid: 734f0c47-6145-4aad-81a5-f68339cd9a8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-2P, server: 5.39.254.196, port: 40125, type: vmess, uuid: 971a17d1-7419-4e6c-9a51-c8b81ccc9298, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US-NEWYORK5-1B, server: cdnblog.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 俄罗斯 RU BIZ-1A, server: ru.cooc.icu, port: 35645, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 美国NO.1-1A, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-2N, server: 45.130.147.178, port: 40045, type: vmess, uuid: cc616694-63bc-4d4f-8e93-c58c8fce4971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本中转 03, server: gstdnb.myfczy168.top, port: 38225, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 韩国-三网优化2-2U, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a02d8e75-1d55-47b9-bddb-c580c1d27905, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 深港专线-香港3, server: dzgz.tcity8.monster, port: 35214, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-2U, server: 36.228.209.142, port: 665, type: vmess, uuid: 4ddc7a28-3c44-4ed5-b86c-03b1ff122708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 新加坡 B SG-1B, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 日本 A JP-1B, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: IEPL专线 印尼 NO1-1B, server: i.needss.top, port: 25127, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 深港专线-澳大利亚, server: dzgz.tcity8.monster, port: 35220, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-2C, server: 5.39.254.196, port: 40125, type: vmess, uuid: 1c9671c9-6067-4a18-a7be-753dbeb64459, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本NO.2-1A, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 加拿大1-1A, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 韩国 NO1-1B, server: i.needss.top, port: 20021, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 中港隧道-台湾, server: jzgz.tcity8.monster, port: 22240, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 澳大利亚原生2-1B, server: xdd.dashuai.cyou, port: 45080, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 公益|英国|V2-1T, server: 5.39.254.196, port: 40125, type: vmess, uuid: 3d9ff553-e822-4cb4-a667-89eaf352862b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-1Z, server: 5.39.254.196, port: 40125, type: vmess, uuid: af78bee9-0c7a-4803-8d17-ea0b5759d754, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: US-NEWYORK3-1A, server: cdn3.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
-  - {name: IEPL专线 加拿大 NO1-1A, server: js3.needss.top, port: 20012, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|英国|V2-1Y, server: 5.39.254.196, port: 40125, type: vmess, uuid: d46f1cab-30af-40b3-a967-f8db1897f1ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-2A, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 7e835424-bbd7-48ea-acc3-9f7c3b075594, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|HK01|V2-1T, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 3d9ff553-e822-4cb4-a667-89eaf352862b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-1F, server: 45.130.147.178, port: 40045, type: vmess, uuid: fd6402d9-a0f6-4745-8476-5f32b513cc03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 香港3-1A, server: xg3.tcity8.buzz, port: 10010, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2F, server: 45.130.147.178, port: 40045, type: vmess, uuid: 8babb628-b4ae-4df4-86ab-41dcc1f73069, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-2L, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: fddef38a-739f-47a5-85df-f2778a14c799, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: US 海外用户, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9d20692d-5ba1-41f8-8b40-55acc4ab2581, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2C, server: 45.130.147.178, port: 40045, type: vmess, uuid: 2086056b-8258-4aac-b595-79026272ba6a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 韩国-三网优化2-2P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ba201df2-effd-45b5-91a9-0001d7186f5c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-3D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5847c967-4573-4859-bd1d-cf955def4e6c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 深港专线-日本-1B, server: dzgz.tcity8.monster, port: 35218, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: IEPL专线 阿根廷 NO1-1A, server: i.needss.top, port: 20014, type: vmess, uuid: a2a1715d-a6f4-4197-af38-4727b9142ad7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 中港隧道-日本-1B, server: jzgz.tcity8.monster, port: 22235, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本中转 01, server: gstdnb.myfczy168.top, port: 13706, type: ss, cipher: chacha20-ietf-poly1305, password: 25e38e8c-9cb5-4d71-a15f-85b0adef7bef, udp: true}
-  - {name: 印度尼西亚1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9cf79d95-1ab5-4ad6-a80a-74c88cc372e7, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|HK01|V2-1H, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 7a07a865-a62b-42ef-a207-828310d38ab2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|英国|V2-1L, server: 5.39.254.196, port: 40125, type: vmess, uuid: a498707a-2035-464f-8ea7-3ac6243625f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 深港专线-加拿大-1A, server: dzgz.tcity8.monster, port: 35216, type: vmess, uuid: fe0624c6-b55d-4d5d-9a0b-c742174c04c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 公益|俄罗斯|V2-2J, server: 45.130.147.178, port: 40045, type: vmess, uuid: 5e3f9df9-10cb-4c7e-8925-58b0673e22cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-2O, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 2570f70b-4e7c-49cb-9ffe-b6cfb732d409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 韩国-三网优化2-3P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f7843101-51b8-4792-93b2-12db8990b9e5, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-1H, server: 5.39.254.196, port: 40125, type: vmess, uuid: 7a07a865-a62b-42ef-a207-828310d38ab2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-2S, server: 5.39.254.196, port: 40125, type: vmess, uuid: 3a93862c-83c8-42c9-9280-29d148441743, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|英国|V2-1K, server: 5.39.254.196, port: 40125, type: vmess, uuid: 2d786524-1894-4054-ba6d-1f2c4ea8ca4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中港隧道-英国-1B, server: jzgz.tcity8.monster, port: 22229, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9b4ce4ad-446f-4add-b78b-39d16cf01cf6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 公益|英国|V2-1B, server: 5.39.254.196, port: 40125, type: vmess, uuid: 71d34a55-e540-4bd9-af18-3b77a39d212e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|俄罗斯|V2-2G, server: 45.130.147.178, port: 40045, type: vmess, uuid: c8ebf54d-d78e-44ec-8efc-0021620a512e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 公益|HK01|V2-2G, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: c8ebf54d-d78e-44ec-8efc-0021620a512e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|HK01|V2-1R, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: cf938b3b-daaf-431b-8992-a163c875fa52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
-  - {name: 公益|俄罗斯|V2-1K, server: 45.130.147.178, port: 40045, type: vmess, uuid: 2d786524-1894-4054-ba6d-1f2c4ea8ca4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 中港隧道-香港2-1B, server: jzgz.tcity8.monster, port: 22226, type: vmess, uuid: 41506464-2445-4c40-806b-d0408dad45b9, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: US-FREENODE-1A, server: exclusively-foriran.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 公益|HK01|V2-1M, server: 36.228.209.142, port: 665, type: vmess, uuid: d58d0a56-451e-4974-bf76-a397d10a5bb5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国中转 02, server: gstdnb.myfczy168.top, port: 15070, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 香港-1C, server: xg1.tcity8.buzz, port: 10010, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 阿根廷 NO1-1B, server: i.needss.top, port: 20014, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9d20692d-5ba1-41f8-8b40-55acc4ab2581, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: IEPL专线 印度 NO1-1A, server: i.needss.top, port: 15442, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 美国 NO1-1B, server: i.needss.top, port: 54770, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-3C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3f104562-1c97-43ed-98d6-f1a232df808f, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: IEPL专线 新加坡 NO1-1A, server: i.needss.top, port: 44412, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-1V, server: 5.39.254.196, port: 40125, type: vmess, uuid: 81651a3d-d612-45e8-9040-ec3ff296dfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国 C US-1B, server: usa3.iepl.cooc.icu, port: 33881, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 公益|俄罗斯|V2-1I, server: 45.130.147.178, port: 40045, type: vmess, uuid: 11b936bb-3109-422c-b022-7d7e4799373e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-1E, server: 36.228.209.142, port: 665, type: vmess, uuid: 66a4ef54-9238-40e2-b6b1-4f388022c4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3838f542-c078-4106-a144-245085d654d9, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|俄罗斯|V2-2E, server: 45.130.147.178, port: 40045, type: vmess, uuid: 7e835424-bbd7-48ea-acc3-9f7c3b075594, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-1M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3132a471-4b82-422a-b6a1-9615a75f05d3, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本NO.1-1A, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 泰国 TH BIZ-1B, server: th.cooc.icu, port: 35613, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 公益|俄罗斯|V2-1S, server: 45.130.147.178, port: 40045, type: vmess, uuid: 6d544a04-4374-41a2-8f67-63a496717703, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-2D, server: 5.39.254.196, port: 40125, type: vmess, uuid: 924c2ee3-4276-47cb-93d2-ec9267faeccd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-2H, server: 5.39.254.196, port: 40125, type: vmess, uuid: af78bee9-0c7a-4803-8d17-ea0b5759d754, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本中转 01, server: gstdnb.myfczy168.top, port: 13706, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 美国 A US-1A, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 公益|HK01|V2-2F, server: 36.228.209.142, port: 665, type: vmess, uuid: 7429f1a7-24e3-4e60-be5a-2fdfc693ec47, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 新加坡01, server: cf.hy2.one, port: 2082, type: vmess, uuid: dbdbe2a9-184d-43b3-b025-d3ed3d6f47c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg01.hy-2.top}}, udp: true}
+  - {name: 韩国 A KR-1A, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 公益|英国|V2-1A, server: 5.39.254.196, port: 40125, type: vmess, uuid: fd6402d9-a0f6-4745-8476-5f32b513cc03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CM 隧道 法国 NO1-1B, server: js3.needss.top, port: 52118, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-2S, server: 36.228.209.142, port: 665, type: vmess, uuid: 8babb628-b4ae-4df4-86ab-41dcc1f73069, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: TW 海外用户-1A, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 公益|俄罗斯|V2-1C, server: 45.130.147.178, port: 40045, type: vmess, uuid: 3c2b86e7-2847-4e54-9dd6-3aa5f8d7230a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 47e30da0-c798-4a13-b3bf-d35aa856768d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 深港专线-德国, server: dzgz.tcity8.monster, port: 35222, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-2D, server: 36.228.209.142, port: 665, type: vmess, uuid: 924c2ee3-4276-47cb-93d2-ec9267faeccd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-1N, server: 5.39.254.196, port: 40125, type: vmess, uuid: d46f1cab-30af-40b3-a967-f8db1897f1ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 澳门NO.2-1A, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾中转 05, server: gstdnb.myfczy168.top, port: 35846, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 德国 DE | BIZ-1A, server: ge.cooc.icu, port: 35607, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 加拿大1-1B, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-1J, server: 36.228.209.142, port: 665, type: vmess, uuid: cc45b5b4-2e20-4926-a955-45e39f25b1e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国 C KR-1B, server: kr3.iepl.cooc.icu, port: 35609, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 新加坡1SS移动飞快, server: sg6.hy2.one, port: 23343, type: ss, cipher: chacha20-ietf-poly1305, password: dbdbe2a9-184d-43b3-b025-d3ed3d6f47c2, udp: true}
+  - {name: 公益|HK01|V2-1D, server: 36.228.209.142, port: 665, type: vmess, uuid: f0c13741-72ce-4906-99c8-cb80e10e3da4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 98d93a29-a166-401c-8982-bf4e0c87362c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 英国 UK | BIZ-1B, server: uk.cooc.icu, port: 35605, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 公益|HK01|V2-2E, server: 36.228.209.142, port: 665, type: vmess, uuid: 7e835424-bbd7-48ea-acc3-9f7c3b075594, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-2O, server: 45.130.147.178, port: 40045, type: vmess, uuid: 2d786524-1894-4054-ba6d-1f2c4ea8ca4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 深港专线-香港1, server: dzgz.tcity8.monster, port: 35212, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾2-1B, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-1F, server: 5.39.254.196, port: 40125, type: vmess, uuid: 9eacd1bd-20d3-4293-ae72-af995551f492, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国 C KR-1A, server: kr3.iepl.cooc.icu, port: 35609, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 中港隧道-香港2, server: jzgz.tcity8.monster, port: 22226, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 加拿大 NO1-1A, server: js3.needss.top, port: 20012, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 美国 B US-1A, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: IEPL专线 香港 NO3-1B, server: i.needss.top, port: 65533, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-1A, server: 36.228.209.142, port: 665, type: vmess, uuid: fd6402d9-a0f6-4745-8476-5f32b513cc03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-1Z, server: 45.130.147.178, port: 40045, type: vmess, uuid: 54ce693e-5922-4f9a-aa61-34519538a971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CM 隧道 法国 NO1-1A, server: js3.needss.top, port: 52118, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-1P, server: 45.130.147.178, port: 40045, type: vmess, uuid: 486c2663-27d1-4fb1-89ac-0cbbb8cc89f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-1G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 79b28453-337d-4337-9511-c4cca276836d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-2N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 89f72152-b15a-4876-bd66-640195253731, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|俄罗斯|V2-1B, server: 45.130.147.178, port: 40045, type: vmess, uuid: 2b73f033-2f9a-486c-9a2b-44d4c04a93bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL专线 英国 NO1-1A, server: sh3.needss.top, port: 54774, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2S, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d329f512-1367-40f3-94d7-e763996640d4, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-1E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ae0579c5-ac0b-44bf-8965-90bb9d1f0734, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: CM 隧道 日本 NO1-1B, server: i.needss.top, port: 52117, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 新加坡NO.1-1B, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-2K, server: 5.39.254.196, port: 40125, type: vmess, uuid: 2086056b-8258-4aac-b595-79026272ba6a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 台湾中转 02, server: gstdnb.myfczy168.top, port: 17010, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: FR-LILLE-1A, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 2095, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/AMDgpu/TG@pwsair/Intelcpu?ed=2048", headers: {Host: lille.hauts-de-france.france.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 韩国-三网优化2-2F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9e04b600-f67f-4c6d-8c0d-2b79a378dbcd, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: JP-TOKYO 试用-1A, server: shibuya-tokyo-japan-amazon.sgqt.fun, port: 8080, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/TG@pwsair/microsoft?ed=2048", headers: {Host: shibuya.tokyo.japan.amazon.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 公益|英国|V2-1S, server: 5.39.254.196, port: 40125, type: vmess, uuid: 6d544a04-4374-41a2-8f67-63a496717703, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-2D, server: 45.130.147.178, port: 40045, type: vmess, uuid: 924c2ee3-4276-47cb-93d2-ec9267faeccd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港中转 05, server: gstdnb.myfczy168.top, port: 20901, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|HK01|V2-2N, server: 36.228.209.142, port: 665, type: vmess, uuid: cc616694-63bc-4d4f-8e93-c58c8fce4971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-3M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4a29d976-7c93-45e8-b53b-e6a9efbda0c8, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|HK01|V2-1S, server: 36.228.209.142, port: 665, type: vmess, uuid: 6d544a04-4374-41a2-8f67-63a496717703, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2Y, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 74434946-9501-4c7f-a61f-652a9f952640, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 美国中转 01, server: gstdnb.myfczy168.top, port: 26858, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 韩国-三网优化2-1x, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: df2ad66b-ccf3-42f7-8939-020040a33b72, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-3J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c9664965-bc8b-46f2-aa88-d6d82a3fe2c6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本 B JP-1A, server: jp2.iepl.cooc.icu, port: 47101, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 深港专线-香港2, server: dzgz.tcity8.monster, port: 35213, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 新加坡 A SG-1B, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 深港专线-日本, server: dzgz.tcity8.monster, port: 35218, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 新加坡中转 03, server: gstdnb.myfczy168.top, port: 11599, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: JP 海外用户-1A, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: IEPL专线 美国 NO1-1A, server: i.needss.top, port: 54770, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: FR-LILLE-ONLYIPV6-2-1A, server: lille.hauts-de-france.france.intacc-cdn.arjcet.org, port: 55555, type: ss, cipher: chacha20-ietf-poly1305, password: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, udp: true}
+  - {name: 公益|HK01|V2-2O, server: 36.228.209.142, port: 665, type: vmess, uuid: 2d786524-1894-4054-ba6d-1f2c4ea8ca4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-1W, server: 36.228.209.142, port: 665, type: vmess, uuid: ded526c3-49c4-42d0-88f0-1b300e165c72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-2O, server: 5.39.254.196, port: 40125, type: vmess, uuid: 2d786524-1894-4054-ba6d-1f2c4ea8ca4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-1V, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5847c967-4573-4859-bd1d-cf955def4e6c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|英国|V2-1L, server: 5.39.254.196, port: 40125, type: vmess, uuid: 28876398-a5c7-42fa-bae7-a9275eb58f6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港中转 02, server: gstdnb.myfczy168.top, port: 36858, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 韩国-三网优化2-3G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f7843101-51b8-4792-93b2-12db8990b9e5, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: IEPL专线 新加坡 NO1-1B, server: i.needss.top, port: 44412, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 瑞典 NO1-1A, server: i.needss.top, port: 31001, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1W, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 230a3e1f-a5fe-44e5-95eb-fdc49cf1c5f0, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 中港隧道-加拿大, server: jzgz.tcity8.monster, port: 22236, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-1Y, server: 5.39.254.196, port: 40125, type: vmess, uuid: 7a07a865-a62b-42ef-a207-828310d38ab2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 台湾 B TW-1B, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 公益|HK01|V2-1Z, server: 36.228.209.142, port: 665, type: vmess, uuid: 54ce693e-5922-4f9a-aa61-34519538a971, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-1P, server: 5.39.254.196, port: 40125, type: vmess, uuid: 486c2663-27d1-4fb1-89ac-0cbbb8cc89f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 英国中转 02, server: gstdnb.myfczy168.top, port: 34013, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|俄罗斯|V2-1M, server: 45.130.147.178, port: 40045, type: vmess, uuid: d58d0a56-451e-4974-bf76-a397d10a5bb5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-1G, server: 45.130.147.178, port: 40045, type: vmess, uuid: 14e4157a-47db-45b4-9571-c973e85e53d4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: TW 海外用户-1B, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 韩国-三网优化2-1P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c87bdd20-c488-4521-b751-5bbb62efd3e9, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 中港隧道-澳大利亚, server: jzgz.tcity8.monster, port: 22237, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 德国 NO1-1B, server: js3.needss.top, port: 54782, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1T, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 50796bbd-a7a5-400a-af97-d68fc9d25f3a, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|俄罗斯|V2-1T, server: 45.130.147.178, port: 40045, type: vmess, uuid: 3d9ff553-e822-4cb4-a667-89eaf352862b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-2C, server: 45.130.147.178, port: 40045, type: vmess, uuid: 1c9671c9-6067-4a18-a7be-753dbeb64459, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2Z, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d8b92cb5-77b3-44d2-9b6b-eb167a276851, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|HK01|V2-1R, server: 36.228.209.142, port: 665, type: vmess, uuid: 2570f70b-4e7c-49cb-9ffe-b6cfb732d409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本中转 02, server: gstdnb.myfczy168.top, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|英国|V2-1M, server: 5.39.254.196, port: 40125, type: vmess, uuid: d58d0a56-451e-4974-bf76-a397d10a5bb5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-1J, server: 5.39.254.196, port: 40125, type: vmess, uuid: cc45b5b4-2e20-4926-a955-45e39f25b1e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-2L, server: 5.39.254.196, port: 40125, type: vmess, uuid: ae418236-916f-4069-80ec-ad5a422fb514, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 马来西亚 MY | BIZ-1B, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 公益|英国|V2-2F, server: 5.39.254.196, port: 40125, type: vmess, uuid: 7429f1a7-24e3-4e60-be5a-2fdfc693ec47, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港NO.1-1B, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-2T, server: 5.39.254.196, port: 40125, type: vmess, uuid: 71d34a55-e540-4bd9-af18-3b77a39d212e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: IEPL专线 意大利 NO1-1B, server: i.needss.top, port: 33320, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-1L, server: 45.130.147.178, port: 40045, type: vmess, uuid: 28876398-a5c7-42fa-bae7-a9275eb58f6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US-NEWYORK5-1A, server: cdnblog.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 公益|俄罗斯|V2-1Y, server: 45.130.147.178, port: 40045, type: vmess, uuid: 7a07a865-a62b-42ef-a207-828310d38ab2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-2K, server: 36.228.209.142, port: 665, type: vmess, uuid: 2086056b-8258-4aac-b595-79026272ba6a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-2A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9cf79d95-1ab5-4ad6-a80a-74c88cc372e7, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: IEPL专线 西班牙 NO1-1B, server: sh3.needss.top, port: 45112, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 美国 B US-1B, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: US-NEWYORK3-1A, server: cdn3.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 韩国-三网优化2-3N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6bb09bfb-10a5-4c37-8c40-416969dc194d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|HK01|V2-1V, server: 36.228.209.142, port: 665, type: vmess, uuid: 81651a3d-d612-45e8-9040-ec3ff296dfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-2R, server: 45.130.147.178, port: 40045, type: vmess, uuid: c9256962-3202-4c45-9556-3e535c824b23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-2R, server: 36.228.209.142, port: 665, type: vmess, uuid: c9256962-3202-4c45-9556-3e535c824b23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 深港专线-加拿大, server: dzgz.tcity8.monster, port: 35216, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 法国2-1B, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 台湾 NO1-1A, server: i.needss.top, port: 20016, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-2I, server: 5.39.254.196, port: 40125, type: vmess, uuid: 40fb3ecd-0304-4c19-8bad-ce380134a2bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 印度2-1A, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 香港中转 01, server: gstdnb.myfczy168.top, port: 43641, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|英国|V2-2Q, server: 5.39.254.196, port: 40125, type: vmess, uuid: cf4e25c0-fa46-4ce9-8606-0d44f33e7023, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-3B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2ea929da-17b9-43a2-a96f-bc74893a11c6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 英国中转 03, server: gstdnb.myfczy168.top, port: 13708, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: IEPL专线 俄罗斯 NO1-1B, server: i.needss.top, port: 21111, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 香港 C HK-1B, server: hk3.iepl.cooc.icu, port: 23881, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 公益|英国|V2-1W, server: 5.39.254.196, port: 40125, type: vmess, uuid: ded526c3-49c4-42d0-88f0-1b300e165c72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本NO.1-1B, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 日本NO.2-1B, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 俄罗斯 NO1-1A, server: i.needss.top, port: 21111, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 印度 NO1-1B, server: i.needss.top, port: 15442, type: vmess, uuid: 162a7847-0794-4b96-bed3-2d489dba7015, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 印度尼西亚2-1B, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 新加坡02-V4-流媒体, server: cf.hy2.one, port: 2052, type: vmess, uuid: dbdbe2a9-184d-43b3-b025-d3ed3d6f47c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /0, headers: {Host: sg0002.hy-2.top}}, udp: true}
+  - {name: 深港专线-英国, server: dzgz.tcity8.monster, port: 35221, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-1B, server: 36.228.209.142, port: 665, type: vmess, uuid: 2b73f033-2f9a-486c-9a2b-44d4c04a93bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-1K, server: 36.228.209.142, port: 665, type: vmess, uuid: a498707a-2035-464f-8ea7-3ac6243625f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: FI-HELSINKI-ONLYIPV6-2-1A, server: helsinki.uusimaa.finland.fi.internetcdn.ggff.net, port: 55555, type: ss, cipher: chacha20-ietf-poly1305, password: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, udp: true}
+  - {name: 公益|HK01|V2-2M, server: 36.228.209.142, port: 665, type: vmess, uuid: 5e3f9df9-10cb-4c7e-8925-58b0673e22cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 台湾中转 01, server: gstdnb.myfczy168.top, port: 27110, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|俄罗斯|V2-2I, server: 45.130.147.178, port: 40045, type: vmess, uuid: 40fb3ecd-0304-4c19-8bad-ce380134a2bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 台湾 A TW-1B, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 香港 B HK-1B, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 台湾1-1A, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-2K, server: 45.130.147.178, port: 40045, type: vmess, uuid: 2086056b-8258-4aac-b595-79026272ba6a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6041a523-68e8-48a0-bd7f-4c6cb73cf16d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 台湾02-3x-流媒体, server: cf.hy2.one, port: 80, type: vmess, uuid: dbdbe2a9-184d-43b3-b025-d3ed3d6f47c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /af323d, headers: {Host: tw02.hy2.one}}, udp: true}
+  - {name: 公益|HK01|V2-2C, server: 36.228.209.142, port: 665, type: vmess, uuid: 1c9671c9-6067-4a18-a7be-753dbeb64459, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 澳大利亚原生2-1A, server: xdd.dashuai.cyou, port: 45080, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-2J, server: 5.39.254.196, port: 40125, type: vmess, uuid: c8ebf54d-d78e-44ec-8efc-0021620a512e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本 B JP-1B, server: jp2.iepl.cooc.icu, port: 47101, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 法国1-1B, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-2M, server: 5.39.254.196, port: 40125, type: vmess, uuid: 5e3f9df9-10cb-4c7e-8925-58b0673e22cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 越南 VN | BIZ-1A, server: vn.cooc.icu, port: 35601, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 韩国-三网优化2-2H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e7754de0-eecc-46e1-a7cd-b2de5e7e9f5d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: IEPL 专线 菲律宾 NO3-1A, server: i.needss.top, port: 20019, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|俄罗斯|V2-2M, server: 45.130.147.178, port: 40045, type: vmess, uuid: 5e3f9df9-10cb-4c7e-8925-58b0673e22cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-1R, server: 45.130.147.178, port: 40045, type: vmess, uuid: 2570f70b-4e7c-49cb-9ffe-b6cfb732d409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-2U, server: 5.39.254.196, port: 40125, type: vmess, uuid: 4ddc7a28-3c44-4ed5-b86c-03b1ff122708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 中港隧道-新加坡, server: jzgz.tcity8.monster, port: 22231, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾 B TW-1A, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: UK-LONDON-01-1B, server: cdnblog.intacc-cdn.arjcet.org, port: 2082, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair?ed=2048", headers: {Host: London.England.UnitedKingdom.internetcdn.internetacc.live}}, udp: true}
+  - {name: 日本中转 05, server: gstdnb.myfczy168.top, port: 21743, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|HK01|V2-2H, server: 36.228.209.142, port: 665, type: vmess, uuid: af78bee9-0c7a-4803-8d17-ea0b5759d754, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 台湾中转 03, server: gstdnb.myfczy168.top, port: 14232, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 韩国-三网优化2-2Q, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dc630538-df1c-456d-92f9-41ec8cb8840d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|俄罗斯|V2-2T, server: 45.130.147.178, port: 40045, type: vmess, uuid: 71d34a55-e540-4bd9-af18-3b77a39d212e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 澳门NO.2-1B, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: IEPL专线 德国 NO1-1A, server: js3.needss.top, port: 54782, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-1P, server: 36.228.209.142, port: 665, type: vmess, uuid: 486c2663-27d1-4fb1-89ac-0cbbb8cc89f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-1D, server: 45.130.147.178, port: 40045, type: vmess, uuid: f0c13741-72ce-4906-99c8-cb80e10e3da4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|俄罗斯|V2-1K, server: 45.130.147.178, port: 40045, type: vmess, uuid: a498707a-2035-464f-8ea7-3ac6243625f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-1O, server: 5.39.254.196, port: 40125, type: vmess, uuid: cf938b3b-daaf-431b-8992-a163c875fa52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|英国|V2-1U, server: 5.39.254.196, port: 40125, type: vmess, uuid: 54f93bba-4d03-4b11-a672-ce223c4d6fec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国 C US-1A, server: usa3.iepl.cooc.icu, port: 33881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: BRAZIL-1B, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 8080, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/Microsoftupdate/TG@pwsair?ed=2048", headers: {Host: jardimperiperi.saopaulo.brazil.internetcdn.internetacc.live}}, udp: true}
+  - {name: 中港隧道-香港1, server: jzgz.tcity8.monster, port: 22224, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d7d1bd4b-52d5-4f83-b252-330a500e213a, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 香港中转 04, server: gstdnb.myfczy168.top, port: 11618, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|HK01|V2-1G, server: 36.228.209.142, port: 665, type: vmess, uuid: 14e4157a-47db-45b4-9571-c973e85e53d4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: FI-HELSINKI-ONLYIPV6-2-1B, server: helsinki.uusimaa.finland.fi.internetcdn.ggff.net, port: 55555, type: ss, cipher: chacha20-ietf-poly1305, password: 5117e705-a121-49c8-9dd3-db437c5106ad, udp: true}
+  - {name: US-FREENODE-1B, server: exclusively-foriran.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair/internetcdn?ed=2048", headers: {Host: buffalo.newyork.us.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 香港中转 03, server: gstdnb.myfczy168.top, port: 14407, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|英国|V2-2G, server: 5.39.254.196, port: 40125, type: vmess, uuid: 775ee653-c437-40a1-bb2b-dc691f2d04ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: UK-LONDON-01-1A, server: cdnblog.intacc-cdn.arjcet.org, port: 2082, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft/TG@pwsair?ed=2048", headers: {Host: London.England.UnitedKingdom.internetcdn.internetacc.live}}, udp: true}
+  - {name: JP 海外用户-1B, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 德国 DE | BIZ-1B, server: ge.cooc.icu, port: 35607, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 韩国-三网优化2-2R, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d93f4ea5-2afe-47ee-a4aa-1c9f18b95a6e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: BRAZIL-1A, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 8080, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/Microsoftupdate/TG@pwsair?ed=2048", headers: {Host: jardimperiperi.saopaulo.brazil.internetcdn.internetacc.live}}, udp: true}
+  - {name: 韩国-三网优化2-2C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e19703c6-73ff-4b3a-8166-7216cf5960e8, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本 A JP-1A, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 公益|HK01|V2-2L, server: 36.228.209.142, port: 665, type: vmess, uuid: ae418236-916f-4069-80ec-ad5a422fb514, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港NO.1-1A, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: FR-LILLE-1B, server: all.in.one.cdn.intacc-cdn.arjcet.org, port: 2095, type: vmess, uuid: 5117e705-a121-49c8-9dd3-db437c5106ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/AMDgpu/TG@pwsair/Intelcpu?ed=2048", headers: {Host: lille.hauts-de-france.france.intacc-cdn.arjcet.org}}, udp: true}
+  - {name: 公益|HK01|V2-1C, server: 36.228.209.142, port: 665, type: vmess, uuid: 3c2b86e7-2847-4e54-9dd6-3aa5f8d7230a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港-1A, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-3A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2b253506-20ef-437e-a2cf-95b6a6610f37, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: CM 隧道 荷兰 NO1-1A, server: sh3.needss.top, port: 20024, type: vmess, uuid: 2f915f65-d2f3-4e59-b3e4-65ff78875759, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 新加坡 A SG-1A, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 韩国-三网优化2-3O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 82cbe52f-74a0-44b4-8791-67c44aee96cf, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 公益|HK01|V2-2A, server: 36.228.209.142, port: 665, type: vmess, uuid: 3a93862c-83c8-42c9-9280-29d148441743, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本 C JP-1A, server: jp3.iepl.cooc.icu, port: 19881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 公益|俄罗斯|V2-1W, server: 45.130.147.178, port: 40045, type: vmess, uuid: ded526c3-49c4-42d0-88f0-1b300e165c72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: DE-建議啟用IPV6-1A, server: 2a01:4f8:272:5aa1:424f:59ad:652a:cc71, port: 2052, type: vmess, uuid: 3e90a9c8-6b1c-454f-9a74-4db6166cb5d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoftvideo/HEAC?ed=2048", headers: {Host: falkenstein.saxony.germany.internetcdn.internetacc.live}}, udp: true}
+  - {name: 公益|HK01|V2-1U, server: 36.228.209.142, port: 665, type: vmess, uuid: 54f93bba-4d03-4b11-a672-ce223c4d6fec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国原生NO2, server: dzgz.tcity8.monster, port: 35209, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 美国中转 03, server: gstdnb.myfczy168.top, port: 23631, type: ss, cipher: chacha20-ietf-poly1305, password: e43c8b41-fcf8-491e-ba5d-2c5d4995cfae, udp: true}
+  - {name: 公益|英国|V2-2B, server: 5.39.254.196, port: 40125, type: vmess, uuid: db820454-843f-4308-9cbd-b8b4e43dbf6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 新加坡NO.1-1A, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1Z, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0bdf2722-0b57-46c7-9fd8-0d983702769f, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 新加坡 C SG-1B, server: sg3.iepl.cooc.icu, port: 35107, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: US 海外用户-1B, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 美国原生NO3, server: jzgz.tcity8.monster, port: 22002, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|HK01|V2-1H, server: 36.228.209.142, port: 665, type: vmess, uuid: b5c9a6bb-c007-499e-9e78-0313d0bed21c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US 海外用户-1A, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
+  - {name: 澳大利亚原生1-1A, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 32e25c31-ec16-4731-9786-6adaa28bbdaa, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 法国 FR BIZ-1B, server: fr.cooc.icu, port: 35611, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 深港专线-台湾, server: dzgz.tcity8.monster, port: 35224, type: vmess, uuid: 53bffd3d-48ad-4921-9a8c-13fa56424b37, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 公益|英国|V2-2S, server: 5.39.254.196, port: 40125, type: vmess, uuid: 8babb628-b4ae-4df4-86ab-41dcc1f73069, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 公益|HK01|V2-2T, server: 36.228.209.142, port: 665, type: vmess, uuid: 71d34a55-e540-4bd9-af18-3b77a39d212e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 澳大利亚原生1-1B, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: cc213dfe-8130-419b-8d54-2c153ddcd9ed, alterId: 0, cipher: auto, tls: false, udp: true}
